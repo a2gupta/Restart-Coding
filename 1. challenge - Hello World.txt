@@ -1,0 +1,14 @@
+1. challenge -> Hello World
+
+c++
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Bhule to nhi hume";
+}
+
+Python
+
+print("Bhule to nhi hume")
