@@ -1,3 +1,5 @@
-# Restart-Coding
-By solving these questions, you gain deep understanding and confidence on DSA  
-If you want my notes email me on arpit arpit09official@gmail.com
+##Restart Coding
+
+Solve these questions to build a deep understanding and confidence in DSA.🚀🚀
+For my notes, feel free to email me at arpit09official@gmail.com.
+Follow the sequence for a smooth and hassle-free learning experience!
