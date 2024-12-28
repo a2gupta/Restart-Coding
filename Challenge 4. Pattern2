@@ -1,0 +1,28 @@
+C++
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    for(int i = 1;i <= a;i++)
+    {
+        for(int j = 0; j <a;j++)
+        {
+            cout<<i<<" ";
+        }
+        cout<<endl;
+    }
+}
+
+Python
+a = int(input("Enter your no."))
+for i in range(1,a+1):
+    for j in range(0,a):
+        print(i,end = " ")
+    print()
+
+Output
+1 1 1
+2 2 2
+3 3 3
