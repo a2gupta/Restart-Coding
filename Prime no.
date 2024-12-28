@@ -1,7 +1,4 @@
-Prime no.
-
-sol
-in c++
+c++
 #include<iostream>
 #include<cmath>
 using namespace std;
