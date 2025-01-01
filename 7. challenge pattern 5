@@ -1,0 +1,32 @@
+output
+Enter your no.3
+1 2 3
+4 5 6
+7 8 9
+
+c++
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter your no.";
+    cin>>n;
+    for(int i = 0; i < n ; i++)
+    {
+        for(int j = 1 ; j < n+1 ; j++)
+        {
+            cout<<i*n+j<<" ";
+        }
+        cout<<endl;
+    }
+}
+
+python
+
+n = int(input("Enter your no."))
+for i in range(0,n):
+    for j in range(1,n+1):
+        print(i*n+j,end = " ")
+    print()
