@@ -1,0 +1,33 @@
+output
+
+Enter your no.4
+4 3 2 1
+4 3 2 1
+4 3 2 1
+4 3 2 1
+
+c++
+  #include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter your no.";
+    cin>>n;
+    for(int i = 0; i < n ; i++)
+    {
+        for(int j = 1 ; j < n+1 ; j++)
+        {
+            cout<<n-j+1<<" ";
+        }
+        cout<<endl;
+    }
+}
+
+python
+
+n = int(input("Enter your no."))
+for i in range(0,n):
+    for j in range(1,n+1):
+        print(n-j+1,end = " ")
+    print()
