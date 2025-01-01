@@ -1,0 +1,61 @@
+output
+
+Enter your no.5
+5 4 3 2 1 1 2 3 4 5 
+5 4 3 2 * * 1 2 3 4 
+5 4 3 * * * * 1 2 3 
+5 4 * * * * * * 1 2 
+5 * * * * * * * * 1 
+
+c++
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter your no.";
+    cin>>n;
+    for(int i = 0; i < n ; i++)
+    {
+        for(int j = n ; j > i ; j--)
+        {
+            cout<<j<<" ";
+        }
+        for(int j=1;j<=i;j++)
+        {
+            cout<<"*"<<" ";
+        }
+        for(int j=1;j<=i;j++)
+        {
+            cout<<"*"<<" ";
+        }
+         for(int j = n ; j > i ; j--)
+        {
+            cout<<n-j+1<<" ";
+        }
+        cout<<endl;
+    }
+}
+python
+
+  n = int(input("Enter your no."))
+j = 0
+for i in range(0,n):
+    j = n
+    while j > i:
+        print(j,end = " ")
+        j-= 1
+    j = 1
+    while j <= i:
+        print("*",end = " ")
+        j+= 1
+    j = 1
+    while j <= i:
+        print("*",end = " ")
+        j+= 1
+    j = n
+    while j > i:
+        print(n-j+1,end = " ")
+        j-= 1
+    
+    print()
