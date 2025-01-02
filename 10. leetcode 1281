@@ -1,0 +1,31 @@
+1281. Subtract the Product and Sum of Digits of an Integer
+
+sol 
+    c++
+    class Solution {
+public:
+    int subtractProductAndSum(int n) {
+        int ans = 1,an=0;
+        while(n>0)
+        {
+            int  dig=n%10;
+            ans*=dig;
+            an+=dig;
+            n=n/10;
+        }
+     return ans-an;   
+    }
+};
+
+python
+class Solution:
+    def subtractProductAndSum(self, n: int) -> int:
+        mul = 1
+        su = 0
+        while n>0 :
+            a = n % 10
+            mul = mul * a
+            su = su + a
+            n = n // 10
+        return mul - su
+        
