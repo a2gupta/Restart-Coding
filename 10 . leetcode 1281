@@ -28,4 +28,6 @@ class Solution:
             su = su + a
             n = n // 10
         return mul - su
+
+link - https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/submissions/1511570714/
         
